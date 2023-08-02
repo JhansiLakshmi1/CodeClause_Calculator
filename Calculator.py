@@ -2,7 +2,7 @@ from tkinter import *
 root = Tk()
 # Title of the application
 root.title("Calculator")
-e = Entry(root,width = 50, borderwidth=10, fg="blue")
+e = Entry(root,width = 40, borderwidth=10, fg="blue")
 e.grid(row=0, column=0,columnspan=20,padx=20,pady=30)
 
 # declaring function
